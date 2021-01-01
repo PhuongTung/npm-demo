@@ -10,3 +10,21 @@ let str = args.join(" ");
 
 console.log(str);
 console.log("Updated!");
+
+exec ("git add .", cb_add);
+
+function cb_add(err, stdout, stdin) { 
+  if(err) { 
+    console.log(err)
+    return
+  }
+  exec (`git commit -m "${str}"`, cb_commit);
+  //it worked!
+}
+function cb_commit(err, stdout, stdin) { 
+  if(err) { 
+    console.log(err)
+    return
+  }
+  console.log("done!")
+}
