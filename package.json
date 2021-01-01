@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "update": "git add . && git commit -m \"update\""
+    "update": "node update-messages.js"
   },
   "repository": {
     "type": "git",
