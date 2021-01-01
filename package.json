@@ -1,0 +1,20 @@
+{
+  "name": "npm-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "git add . && git commit -m \"update\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhuongTung/npm-demo.git"
+  },
+  "author": "Mr Point <phuongtung.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PhuongTung/npm-demo/issues"
+  },
+  "homepage": "https://github.com/PhuongTung/npm-demo#readme"
+}
